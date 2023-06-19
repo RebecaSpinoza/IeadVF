@@ -1,0 +1,76 @@
+
+body {
+    background: rgb(255, 153, 0);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family:'thaoma', "Arial";
+}
+.logoVF{
+    width: 5em;
+    height: 5em;
+    padding: 15px;
+   
+}
+header {
+    background: #ffffff;
+    /* width: 1264px; */
+    padding: 0.3em 0;
+    display: flex;
+    justify-content:center;
+}
+
+.header_container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.titulo-principal{ 
+       display: inline-block;
+       align-items: center;
+       padding: 20px;
+       font-family: FlavorSans;
+       letter-spacing: 4px;
+}
+@font-face {
+    font-family: FlavorSans;
+    src: url(Flavor_sans.otf);
+}
+.titulo-pagina{
+       display: flex;
+       justify-content: center;
+       font-size: 2em;
+       font-family: FlavorSans;
+       color: #ffffff;
+       letter-spacing: 4px;
+       text-shadow: black 0.1em 0.1em 0.2em;
+}
+.container-botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+.botao{
+    width: 15em;
+    min-height: 1em;
+    font-family: FlavorSans;
+    letter-spacing: 4px;
+    padding: 1em;
+    font-size: 2em;
+    margin: 1em;
+    border: 0;
+    border-radius: 2px;
+    box-shadow:  black 0.1em 0.1em 0.2em;
+    background-color: gray;
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+    button:hover{
+    background-color: #ffffff;
+    color: black;
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    
+}
